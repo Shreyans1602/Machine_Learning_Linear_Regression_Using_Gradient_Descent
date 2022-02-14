@@ -26,3 +26,7 @@ There are various parameters such as learning rate, number of iterations or othe
 5. Apply the model you created in the previous step to the test part of the dataset. Report the test dataset error values for the best set of parameters obtained from previous part. If you are not satisfied with your answer, you can repeat the training step.
 
 6. Answer this question: Are you satisfied that you have found the best solution? Explain.
+
+# 2 Linear Regression using ML libraries
+In the second part of this assignment, you will use any ML library that per- forms linear regression from Scikit Learn package. https://scikit-learn.org on the same dataset that you used in part 1.
+Use similar workflow like in part 1. The difference would be that the package will build the model for you. Report output similar to earlier part.
