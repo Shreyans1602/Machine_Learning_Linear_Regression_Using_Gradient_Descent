@@ -20,9 +20,7 @@ You will need to perform the following:
 
 3. After pre-processing split the dataset into training and test parts. It is up to you to choose the train/test ratio, but commonly used values are 80/20, 90/10, etc.
 
-4. Use the training dataset to construct a linear regression model. We discussed creating a linear regression model using a single attribute in class. For this assignment, you will need to extend that model to consider multiple attributes. You may want to think of the vector form of the weight update equation. Note again: you cannot use a library that implements gradient descent or linear regression.
-
-There are various parameters such as learning rate, number of iterations or other stopping condition, etc. You need to tune these parameters to achieve the optimum error value. Tuning involves testing various combi- nations, and then using the best one. You need to create a log file that indicates parameters used and error (MSE) value obtained for various trials.
+4. Use the training dataset to construct a linear regression model. We discussed creating a linear regression model using a single attribute in class. For this assignment, you will need to extend that model to consider multiple attributes. You may want to think of the vector form of the weight update equation. Note again: you cannot use a library that implements gradient descent or linear regression. There are various parameters such as learning rate, number of iterations or other stopping condition, etc. You need to tune these parameters to achieve the optimum error value. Tuning involves testing various combi- nations, and then using the best one. You need to create a log file that indicates parameters used and error (MSE) value obtained for various trials.
 
 5. Apply the model you created in the previous step to the test part of the dataset. Report the test dataset error values for the best set of parameters obtained from previous part. If you are not satisfied with your answer, you can repeat the training step.
 
@@ -32,3 +30,10 @@ There are various parameters such as learning rate, number of iterations or othe
 In the second part of this assignment, you will use any ML library that per- forms linear regression from Scikit Learn package. https://scikit-learn.org on the same dataset that you used in part 1.
 
 Use similar workflow like in part 1. The difference would be that the package will build the model for you. Report output similar to earlier part.
+
+# 3. Additional Requirements
+- You will be graded on the basis of your code. Write clean and elegant code that should be in the form of Python classes, with appropriate con- structors, and other methods.
+- Parameters used such as number of iterations, learning rate, should be op- timized. Keep a log file of your trials indicating parameters used, training error, and test error.
+- You need to provide as many plots as possible. They could be MSE vs number of iterations, the output variable plotted against one or more of important attributes. Use your judgement and be creative.
+- Output as many evaluation statistics as possble. Some examples are weight coefficients, MSE, R2 value, https://en.wikipedia.org/wiki/Coefficient_of_determination, Explained Variance https://en.wikipedia.org/wiki/Explained_variation, and any other.
+- Be sure to answer the following question: Are you satisfied that the package has found the best solution. How can you check. Explain.
