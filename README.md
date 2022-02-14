@@ -1,2 +1,3 @@
-# Machine_Learning_Linear_Regression
+# Machine_Learning_Linear_Regression_Using_Gradient_Descent
+
 Implementation of Linear Regression using Gradient Descent Algorithm
