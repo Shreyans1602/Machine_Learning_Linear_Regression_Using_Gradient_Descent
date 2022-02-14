@@ -37,3 +37,10 @@ Use similar workflow like in part 1. The difference would be that the package wi
 - You need to provide as many plots as possible. They could be MSE vs number of iterations, the output variable plotted against one or more of important attributes. Use your judgement and be creative.
 - Output as many evaluation statistics as possble. Some examples are weight coefficients, MSE, R2 value, https://en.wikipedia.org/wiki/Coefficient_of_determination, Explained Variance https://en.wikipedia.org/wiki/Explained_variation, and any other.
 - Be sure to answer the following question: Are you satisfied that the package has found the best solution. How can you check. Explain.
+
+# 4. What to Submit
+- For parts 1 and 2, completed Python code file(s). Remember to properly name your files such as part1.py and part2.py.
+README file indicating how to build and run your code. For part 2, indicate which libraries you have used. If the TA cannot run your code, you don’t get any credit.
+- Please do not submit any dataset files. Host your data on a public web source, such as your GitHub, AWS, etc.
+- Do not hardcode paths on your local computer.
+- A report file containing log of your trials with different parameters, answer to questions, and plots.
