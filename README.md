@@ -40,7 +40,7 @@ Use similar workflow like in part 1. The difference would be that the package wi
 
 # 4. What to Submit
 - For parts 1 and 2, completed Python code file(s). Remember to properly name your files such as part1.py and part2.py.
-README file indicating how to build and run your code. For part 2, indicate which libraries you have used. If the TA cannot run your code, you don’t get any credit.
+README file indicating how to build and run your code. For part 2, indicate which libraries you have used.
 - Please do not submit any dataset files. Host your data on a public web source, such as your GitHub, AWS, etc.
 - Do not hardcode paths on your local computer.
 - A report file containing log of your trials with different parameters, answer to questions, and plots.
